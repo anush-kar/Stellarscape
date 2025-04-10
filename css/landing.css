@@ -183,6 +183,19 @@ section{
   padding-top: 6rem;
 }
 /* -----------------------cards----------------------- */
+#services{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#services .section-header h2{
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+.section-header{
+  max-width: min(100%, 850px);
+}
 .card-list {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -257,5 +270,6 @@ section{
 @media screen and (max-width: 980px) {
   .card-list {
       margin: 0 auto;
+      grid-template-columns: 1fr;
   }
 }
