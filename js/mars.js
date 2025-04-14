@@ -1,5 +1,5 @@
-const API_KEY = config.NASA_API_KEY;
-const MARS_PHOTOS_URL = 'https://api.nasa.gov/mars-photos/api/v1/rovers';
+const API_KEY = window.config.NASA_API_KEY;
+const MARS_PHOTOS_URL = window.config.MARS_PHOTOS_URL;
 
 const searchForm = document.getElementById('searchForm');
 const tableBody = document.getElementById('tableBody');
