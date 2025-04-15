@@ -120,7 +120,7 @@ if (isset($_POST['add_book'])) {
             <input type="number" name="year_published" required>
 
             <label for="url">URL:</label>
-            <input type="text" name="url" required>
+            <input type="text" name="url">
 
             <button type="submit" name="add_book">Add Book</button>
         </form>

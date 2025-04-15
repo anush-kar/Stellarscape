@@ -1,5 +1,9 @@
 <?php
 // Database connection
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
 include "./server/db.php";
 
 // Define the search query
@@ -64,7 +68,7 @@ $result = $conn->query($sql);
                 <input type="text" name="search_query" placeholder="Search by Book Title" value="<?php echo htmlspecialchars($search_query); ?>">
                 <button type="submit" name="search">Search</button>
             </form>
-            <a href="add_book.php"><button>Add Book</button></a>
+            <a href="./add_book.php"><button>Add Book</button></a>
         </div>
 
         <table>

@@ -1,24 +1,16 @@
+<?php include './components/check_login.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mars Rover Photos</title>
-    <link rel="stylesheet" href="../css/landing.css" />
-    <link rel="stylesheet" href="../css/mars.css">
+    <link rel="stylesheet" href="./public/css/landing.css" />
+    <link rel="stylesheet" href="./public/css/mars.css">
   </head>
 
   <body>
-    <nav>
-      <a href="index.html" style="text-decoration: none">
-        <div class="nav__logo">Stellarscape</div>
-      </a>
-      <ul class="nav__links">
-        <li class="link"><a href="#services">Services</a></li>
-        <li class="link"><a href="#">About Us</a></li>
-      </ul>
-      <button class="btn">Logout</button>
-    </nav>
+    <?php include "./components/navbar.html" ?>
 
     <div class="container">
       <div class="container_inner">
@@ -58,7 +50,7 @@
         </div>
       </div>
     </div>
-    <script type="module" src='../js/config.js'></script>
-    <script type="module" src="../js/mars.js"></script>
+    <script type="module" src='./public/js/config.js'></script>
+    <script type="module" src="./public/js/mars.js"></script>
   </body>
 </html>

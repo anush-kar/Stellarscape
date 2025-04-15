@@ -121,20 +121,20 @@
     <h2>Our Services</h2>
   </div>
   <div class="card-list">
-    <a href="apod.html" class="card-item">
+    <a href="apod.php" class="card-item">
       <img src="./public/assets/planet-earth-background.jpg" alt="Card Image">
       <span class="developer">Astronomy Picture of the Day</span>
       <h3>New stunning images of the universe picked by NASA everyday</h3>
     </a>
     
-    <a href="mars.html" class="card-item">
+    <a href="mars.php" class="card-item">
       <img src="./public/assets/mars.jpg" alt="Card Image">
       <span class="developer">Mars Rover Photos</span>
       <h3>Get images gathered by NASA's Curiosity, Opportunity, and Spirit rovers on Mars</h3>              
     </a>
 
     <!-- 🌟 Library Card Added Below -->
-    <a href="library/index.php" class="card-item">
+    <a href="./index.php" class="card-item">
       <img src="./public/assets/library.jpeg" alt="Library Image">
       <span class="developer">Library</span>
       <h3>Explore books, search your favorites, and add new ones to the collection</h3>              
