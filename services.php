@@ -134,7 +134,7 @@
     </a>
 
     <!-- 🌟 Library Card Added Below -->
-    <a href="./index.php" class="card-item">
+    <a href="./library.php" class="card-item">
       <img src="./public/assets/library.jpeg" alt="Library Image">
       <span class="developer">Library</span>
       <h3>Explore books, search your favorites, and add new ones to the collection</h3>              

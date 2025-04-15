@@ -1,11 +1,11 @@
 <?php
 session_start();
 
-$conn = mysqli_connect("localhost", "root", "manvswild", "lunar");
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 
-if (!$conn) {
-  die("Connection failed: " . mysqli_connect_error());
-}
+include "./db.php";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $username = mysqli_real_escape_string($conn, $_POST["username"]);

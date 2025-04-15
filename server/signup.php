@@ -1,10 +1,11 @@
 <?php
 session_start();
 
-$conn = new mysqli("localhost", "root", "manvswild", "lunar");
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+include "./db.php";
 
 $username = trim($_POST['username']);
 $password = password_hash(trim($_POST['password']), PASSWORD_DEFAULT);
